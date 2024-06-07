@@ -1,0 +1,9 @@
+POST http://localhost:5203/note/create
+content-Type:application/json
+
+
+GET http://localhost:5203/note/all
+Accept: application/json
+
+GET http://localhost:5203/note/note_id
+Content-Type: application/json

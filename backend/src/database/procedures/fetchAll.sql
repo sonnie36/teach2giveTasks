@@ -1,0 +1,5 @@
+CREATE PROCEDURE fetchAllNotes
+AS
+BEGIN
+    SELECT * FROM Notes;
+END;
